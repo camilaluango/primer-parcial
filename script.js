@@ -3,7 +3,9 @@ const salarioMinimo = 2500;
 
 function buscarEmpleo (eferta, salarioMinimo){
     for (let i = 0; i >= salarioMinimo; i++){
-        
+        if(ofertas[1] >= salarioMinimo){
+            return i;
+        }
 
     }
     
